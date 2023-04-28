@@ -1,0 +1,45 @@
+.content {
+  background-color: White;
+  padding: 40px 30px 0;
+  margin: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 26px -13px rgba(0, 0, 0, 0.26);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: hsl(224, 21%, 14%);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.num {
+  color: white;
+  padding: 2px 11px;
+  margin-left: 11px;
+  background-color: hsl(219, 85%, 26%);
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.mark {
+  font-size: 16px;
+  color: hsl(219, 12%, 42%);
+  background-color: #ffffff;
+}
+
+.mark:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
